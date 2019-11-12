@@ -1,0 +1,31 @@
+.normal-bold {
+  font-size: 30rpx;
+  font-weight: bold;
+  letter-spacing: 4rpx;
+}
+
+.txt-normal {
+  font-size: 30rpx;
+}
+
+.txt-mid {
+  font-size: 28rpx;
+}
+
+.mid-bold {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.txt-sm {
+  font-size: 22rpx;
+  color: #d5d4d4;
+}
+
+.txt-theme-color {
+  color: #fccd5d;
+}
+
+.txt-anxious {
+  color: #fc0303;
+}

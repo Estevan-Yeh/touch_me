@@ -1,0 +1,52 @@
+{
+  "pages": [
+
+    "pages/index/index/main",
+    "pages/index/pickReward/main",
+    "pages/index/sendReward/main",
+    "pages/order/index/main",
+    "pages/my/index/main",
+    "pages/my/address/main",
+    "pages/my/addressEdit/main",
+    "pages/my/identification/main",
+    "pages/my/money/main",
+    "pages/my/comment/main",
+    "pages/my/ordersDetails/main",
+    "pages/my/feedback/main",
+    "pages/my/about/main",
+    "pages/common/commentDetails/main",
+    "pages/common/sureOrder/main",
+    "pages/common/detailsOrder/main"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#fccd5d",
+    "borderStyle": "white",
+
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/index/index/main",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index-active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/index/main",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/index/main",
+        "iconPath": "static/tabs/my.png",
+        "selectedIconPath": "static/tabs/my-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
